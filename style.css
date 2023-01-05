@@ -1,0 +1,186 @@
+body {
+    background: rgb(241, 231, 231);
+    background-repeat: no-repeat;
+    background-image: linear-gradient(#040213, #06022c,#041c4d , #14417c);
+    background-size: 100% 500px;
+    display: flex;
+    justify-content: center;
+    font-family: lato;
+    color: rgb(107, 107, 107);
+
+}
+.container {
+    width: 1200px;
+}
+
+.logo {
+    width: 113px;
+    height: 36px;
+    margin-right: 200px;
+}
+.header-outer {
+    display: flex;
+    gap: 30px;
+    color: #eeeeef;
+    font-size: 14PX;
+    
+}
+.login {
+    background-image: linear-gradient(93deg,#53b2fe,#065af3);
+    height: 40px;
+    width: 200px;
+    font-size: 12px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.header-nav {
+    background-color: white;
+    width: 950px;
+    margin: 15px;
+    height: 70px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 1px 15px 1px #7a7a7a;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(73, 73, 73);
+    text-decoration: none;
+    z-index: 2;
+}
+
+.header-nav span {
+    font-size: 16px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.fa {
+    font-size: 14px;
+}
+.header {
+    background-color: white;
+    color: rgb(59, 58, 58);
+    width: 1200px;
+    height: 280px;
+    position: absolute;
+    top: 50px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.ticket {
+    margin-top: 50px;
+    font-size: 14px;
+    font-weight: 800;
+
+}
+.ticket span {
+    font-size: 14px;
+    padding: 5px;
+
+}
+.selected-ticket-type {
+    background-color: rgb(221, 218, 218);
+    border-radius: 30px;
+}
+.flight-search {
+    border: 1px solid rgb(202,202,202);
+    display: flex;
+    color: rgb(19, 18, 18);
+    margin-top: 10px;
+    border-radius: 8px;
+    height: 120px;
+}
+.flight {
+    margin: 15px;
+    width: 300px;
+    border-right: 1px solid rgb(212, 210, 210);
+}
+.flight h1 {
+    margin: 0;
+}
+.time {
+    width: 150px;
+    border-right: 1px solid rgb(212, 210, 210);
+    margin: 10px;
+}
+.time h2 {
+    margin: 5px;
+}
+.fare-search {
+    margin-top: 40px;
+    font-size: 14px;
+    display: flex;
+    border-right: 1px solid rgb(187, 180, 180);
+}
+.fareselect {
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    
+}
+.fares i {
+    font-size: 14px;
+    color: rgb(35, 86, 194);
+    
+}
+
+.fares span {
+    background: rgb(240, 237, 237);
+    border: 1px solid rgb(245, 241, 241);
+    padding: 5px;
+}
+.trending-searches {
+    position: absolute;
+    right: 0;
+    padding-right: 20px;
+}
+.trending-seraches span {
+    margin-right: 10px;
+    background: rgb(240, 237, 237);
+    border: 1px solid rgb(245, 241, 241);
+}
+.search-button {
+    width: 216px;
+    height: 44px;
+   background-image: linear-gradient(93deg,#53b2fe,#065af3);
+    color: rgb(240, 234, 234);
+    font-size: 24px;
+    text-align: center;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -20px;
+    left: 40%;
+
+}
+.sub-nav {
+    background-color: rgb(250, 248, 248);
+    width: 950px;
+    height: 50px;
+    font-size: 14px;
+    position: absolute;
+    top: 480px;
+    border-radius: 20px;
+    box-shadow: 0px 1px 10px 1px #7a7a7a;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(73, 73, 73);
+    align-items: center;
+    justify-items: center;
+    left: 200px;
+    
+}
